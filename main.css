@@ -1,0 +1,22 @@
+div.unstyledTable {
+  background-color: #F1FAFF;
+  width: 100%;
+  text-align: left;
+}
+.divTable.unstyledTable .divTableCell, .divTable.unstyledTable .divTableHead {
+  padding: 1px 1px;
+}
+.divTable.unstyledTable .divTableHeading {
+  background: #DDDDDD;
+}
+.divTable.unstyledTable .divTableHeading .divTableHead {
+  font-weight: normal;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
